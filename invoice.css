@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+@page {
+  size: 21cm 30cm;
+  margin: 1cm;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+  display: flex;
+  flex: none;
+}
+
+/* Set Fixed Heights */
+.section-1 { height: 4.5cm; }
+.section-2 { height: 2.2cm; font-size: 8pt; padding-bottom: 10px;}
+.section-3 { height: 12cm; display:flex;}
+.section-4 { height: 2.5cm; }
+
+
+/* Header Columns */
+.header-left, .header-center, .header-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  border-right: none;
+}
+
+/* Company Logo */
+.company-logo {
+    width: 4cm;
+    height: 5cm;
+    transform: scale(1.4 ,1.4);
+    background: url("logo_adaptor.png") no-repeat center;
+    background-size: contain;
+    display: block;
+}
+
+/* Supplier Information - Centered & Ordered Vertically */
+.supplier-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3cm;
+}
+.supplier-name {
+  font-size: 12pt;
+  font-weight: 700;
+}
+
+/* Right Header Section - Document Info with Red Border */
+.document-info {
+  border: 3px solid red;
+  text-align: center;
+  color: red;
+  flex-direction: column;
+  font-size: 11pt;
+  font-weight: 600;
+}
+.spacer {
+  padding: 0.5cm;
+}
+.spaces{
+  padding: 5px;
+}
+
+/* Receiver Data Section */
+#receiver_data {
+    width: 100%;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Item Table */
+#item_table {
+  width: 100%;
+  font-size: 8pt;
+  flex-direction: column;
+}
+
+/* Ensures all rows fill remaining space */
+#item_table tbody tr {
+    height: 12pt;
+}
+
+
+#item_table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 1px solid black; /*maybe delete this one*/
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#item_table th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+tr:nth-child(2) {
+    height: 8cm;
+}
+
+#item_table td {
+  border-left: 1px solid black;
+  padding: 5px;
+}
+
+#item_table td:nth-child(1) { width: 4%; text-align: center; }
+#item_table td:nth-child(2) { width: 19%; text-align: left; }
+#item_table td:nth-child(3) { width: 38%; text-align: left; }
+#item_table td:nth-child(4) { width: 5%; text-align: center; }
+#item_table td:nth-child(5) { width: 10%; text-align: right; }
+#item_table td:nth-child(6) { width: 5%; text-align: right; }
+#item_table td:nth-child(7) { width: 10%; text-align: right; }
+
+/* Section 4 - Split into Two Parts */
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 8pt;
+}
+
+.section-4-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  }
+
+.section-4-right { width: 30%; }
+
+/* References Table */
+#referencias_table {
+    border: 1px solid black;
+    width: 99%;
+    border-collapse: collapse;
+    font-size: 6pt;
+    margin-top: 0; /* Removes extra spacing above */
+}
+
+#referencias_table td {
+    white-space: nowrap; /* Prevents unnecessary wrapping */
+}
+
+#referencias_table th {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    white-space: nowrap; /* Prevents unnecessary wrapping */
+}
+
+#referencias_table td:nth-child(1) {
+   border-right: 1px solid black;
+   width: 20%;
+   text-align: left;
+   padding: 3px;
+}
+
+#referencias_table td:nth-child(2) {
+   border-right: 1px solid black;
+   width: 13%;
+   text-align: center;
+   padding: 3px;
+}
+#referencias_table td:nth-child(3) {
+   border-right: 1px solid black;
+   width: 10%;
+   text-align: center;
+   padding: 3px;
+}
+#referencias_table td:nth-child(4) {
+   width: 27%;
+   text-align: left;
+   padding: 3px;
+}
+#referencias_table tbody tr {
+    height: auto;
+}
+
+#imagen-svg {
+  background: url(barcode.svg) no-repeat;
+  background-size: contain;
+  position: absolute;
+  background-position: center, center;
+  height: 2.5cm;
+  transform: scale(1.5 ,0.9);
+  vertical-align: middle;
+  bottom: 3cm;
+  left: 0.5cm;
+}
+#SVGText{
+  line-height: 100%;
+  font-size: 0.2cm;
+  padding-left: 3.5cm;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/* Section 5 - Fixed Height */
+.section-5 {
+    height: 3cm;
+    display: flex;
+    padding-bottom: 0.5cm;
+    justify-content: center;
+}
+
+/* Section 6 - Fixed Height */
+.section-6 {
+    height: 0.5cm;
+    display: flex;
+    bottom: 1.6cm;
+}
+

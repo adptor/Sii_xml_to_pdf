@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+      <Documento ID="T33F12444">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>12444</Folio>
+            <FchEmis>2024-12-17</FchEmis>
+            <TpoTranVenta>1</TpoTranVenta>
+            <FmaPago>2</FmaPago>
+            <FchVenc>2025-01-16</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76276027-4</RUTEmisor>
+            <RznSoc>Sociedad Adaptor Chile SpA</RznSoc>
+            <GiroEmis>Venta articulos electronicos y telecomunicaciones</GiroEmis>
+            <Acteco>523930</Acteco>
+            <Sucursal>1-Casa Matriz</Sucursal>
+            <DirOrigen>Roger de Flor 2907, local 4</DirOrigen>
+            <CmnaOrigen>Las Condes</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+            <CdgVendedor>EAV-Eduardo Araya Veloso</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76130712-6</RUTRecep>
+            <RznSocRecep>TIVIT CHILE</RznSocRecep>
+            <GiroRecep>EMPRESA DE SERVICIOS INTEGRALES DE TECNO</GiroRecep>
+            <Contacto>Fono: +56223976200</Contacto>
+            <DirRecep>Av. Los Jardines 927, piso 1</DirRecep>
+            <CmnaRecep>Huechuraba</CmnaRecep>
+            <CiudadRecep>Santiago</CiudadRecep>
+            <DirPostal>Av. Los Jardines 927, piso 1</DirPostal>
+          </Receptor>
+          <Transporte>
+            <DirDest>Av. Los Jardines 927, piso 1</DirDest>
+            <CmnaDest>Huechuraba</CmnaDest>
+            <CiudadDest>Santiago</CiudadDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>180000</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19</TasaIVA>
+            <IVA>34200</IVA>
+            <MntTotal>214200</MntTotal>
+          </Totales>
+          <OtraMoneda>
+            <TpoMoneda>DOLAR USA</TpoMoneda>
+            <TpoCambio>1000.00</TpoCambio>
+            <MntNetoOtrMnda>180.0000</MntNetoOtrMnda>
+            <IVAOtrMnda>34.2000</IVAOtrMnda>
+            <MntTotOtrMnda>214.2000</MntTotOtrMnda>
+          </OtraMoneda>
+        </Encabezado>
+        <Detalle>	<NroLinDet>1</NroLinDet>	<CdgItem>	<TpoCodigo>INT1</TpoCodigo>	<VlrCodigo>SERV-VIS_TEC_00</VlrCodigo>	</CdgItem>	<NmbItem>Servicio de visita tecnica programada</NmbItem>	<QtyItem>2.0000</QtyItem>	<UnmdItem>Hr.</UnmdItem>	<PrcItem>90000.000000</PrcItem>	<MontoItem>180000</MontoItem>	</Detalle>
+        <Referencia>	<NroLinRef>1</NroLinRef>	<TpoDocRef>801</TpoDocRef>	<FolioRef>4500080785</FolioRef>	<FchRef>2024-12-16</FchRef>	<RazonRef>ORDEN DE COMPRA</RazonRef>	</Referencia>
+        <Referencia>	<NroLinRef>2</NroLinRef>	<TpoDocRef>802</TpoDocRef>	<FolioRef>5000123370</FolioRef>	<FchRef>2024-12-16</FchRef>	</Referencia>
+        <Referencia>	<NroLinRef>3</NroLinRef>	<TpoDocRef>NV</TpoDocRef>	<FolioRef>9090</FolioRef>	<FchRef>2024-12-16</FchRef>	</Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76276027-4</RE>
+            <TD>33</TD>
+            <F>12444</F>
+            <FE>2024-12-17</FE>
+            <RR>76130712-6</RR>
+            <RSR>TIVIT CHILE</RSR>
+            <MNT>214200</MNT>
+            <IT1>Servicio de visita tecnica programada</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76276027-4</RE>
+                <RS>SOCIEDAD ADAPTOR CHILE SPA</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>12175</D>
+                  <H>12474</H>
+                </RNG>
+                <FA>2024-08-05</FA>
+                <RSAPK>
+                  <M>q1XHAxC69yCN5f7wI0Hsmeqj3KAU+XlO1yZkm7tEuE72Iyu8zeT9/iDks3eOFstDG4Oc9zvTj8kJpqBv6GLQZw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">YkwztokeTqbkkjAR6j6b1sKNEFYAvbf1itcqRlGByxb7elXxdwiENYr+1Ap6STcTQWkgW8zEWWRsj5L/gKmmcQ==</FRMA>
+            </CAF>
+            <TSTED>2024-12-17T08:50:46</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">Vas0HSl9/krPJWi89YY4RAP5Xi/oOpG+rsr/nyxdapJLrojG/UCOiiKUcjKcp9CwZzNrqzoGS3NK
++P6UJkGNtg==</FRMT>
+        </TED>
+        <TmstFirma>2024-12-17T08:50:46</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<Reference URI="#T33F12444">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<DigestValue>YLOiTbM1VGyVsTqq3QYz4AVwYCY=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>sg6gF7EDbgM0b/7BVAva3TraedzKNqNkrYvuFhRhk3vjt8BRdUScCl7zyrXEHePnVtDhzdSZ8mTn
+VLXWU4u53e+q27+xWUqXmRBCT5B8ciniIDcieSQDLT3ZFds0SJrkSL+nTf0HrAn9RQY8PbyxO6SX
+5HwoeKttqL3eHJYGK0vn7k82kvJTJNK0HNWh+jT1SqIj/uMVwfKhxXn8R8DAdu0ivzmlBy36H9Kj
+sZhaEmOXt7Z4JZRSHT8+P9W0+BA0bhlIwa77qPCh/IGbqsFE9Oxz9RDtg1csq9r7ve9h8u55A73m
+RFPme/ytTouWsu/KlIzm9r9wPly8aR8Q9AYEPw==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>vAdz4gO2cjHpFUOItFR/tbLF/d9i59Mii0+HLBQx6kME0FTszcW+d923OKNFA2Z/LFRikvWDnl14
+1QdmsCQSUztnk2ylyKLqtKrYS4olMr6VHMvfLTK3Gcdqp58nv4wZzC1HkZWGeh7kPvm33il6dWBK
+uxfYWhjwqFkb+0mIpz/hjCmyzFhDBxlHEhaVsHJ6rum9GqP69BsvKAgLtH8Hx0MQedOq/EDGZ1PD
+SlEMG68Rqyfcfr/tUSyO4hNbQ49LAedp7IF8ACThifdSe40mI2+cpo5PJPsVN/U2hSoemXAvog90
+PITxWOFjTFL164ZvjG2HEila8PXsWm9HZkA2sQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGejCCBWKgAwIBAgIDBFuKMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDMgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yNDA1MjcxMzI0NTRaFw0yNzA1Mjcx
+MzI0NTRaMIGLMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSYwJAYDVQQD
+Ex1TQU5EUkEgS0FUSUEgQ0FMVk8gQlVTVEFNQU5URTEmMCQGCSqGSIb3DQEJARYXU0FORFJBLkNB
+TFZPQEFEQVBUT1IuQ0wxEjAQBgNVBAUTCTk2Njk5OTYtNDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALwHc+IDtnIx6RVDiLRUf7Wyxf3fYufTIotPhywUMepDBNBU7M3FvnfdtzijRQNm
+fyxUYpL1g55deNUHZrAkElM7Z5Nspcii6rSq2EuKJTK+lRzL3y0ytxnHaqefJ7+MGcwtR5GVhnoe
+5D75t94penVgSrsX2FoY8KhZG/tJiKc/4YwpssxYQwcZRxIWlbByeq7pvRqj+vQbLygIC7R/B8dD
+EHnTqvxAxmdTw0pRDBuvEasn3H6/7VEsjuITW0OPSwHnaeyBfAAk4Yn3UnuNJiNvnKaOTyT7FTf1
+NoUqHplwL6IPdDyE8VjhY0xS9euGb4xthxIpWvD17FpvR2ZANrECAwEAAaOCAsgwggLEMB8GA1Ud
+IwQYMBaAFKr9vcXpN032mU1XjsFxGvnrwwbjMB0GA1UdDgQWBBQWxUHTBML9EoaQwbbujPbAcLYU
+bjALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIB
+AQQEAwIFoDCB+gYDVR0gBIHyMIHvMIHsBggrBgEEAbVrAjCB3zAxBggrBgEFBQcCARYlaHR0cHM6
+Ly9hY2c0LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBqQYIKwYBBQUHAgIwgZwwFhYPQWNlcHRh
+LmNvbSBTLkEuMAMCAQIagYFFbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEgcHJl
+c2VuY2lhbCwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmli
+dXRhcmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAM
+Fgo5NjkxOTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9A
+YWNlcHRhLmNvbTBgBgNVHREEWTBXoBcGCCsGAQQBwQEBoAsWCTk2Njk5OTYtNKAjBggrBgEFBQcI
+A6AXMBUMCTk2Njk5OTYtNAYIKwYBBAHBAQKBF1NBTkRSQS5DQUxWT0BBREFQVE9SLkNMMEcGCCsG
+AQUFBwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3Nw
+L0NsYXNlMy1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0
+L2NybC9DbGFzZTMtRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQABlUb/8LAZvyUbcHdeJHjBruNs
+ab+02jsyu1qYe9UgLKjErpmuErER9mGi1NMAXocL64lyU8FHgou9+osNtBLuFHCsMQy7bgDtcaef
+9QrF9ikJ5TPLnmvxW8isj94Ok1mz+l2yIswkV+UA+sxKXDBSTpFB3+pWFYY0Ctc7zFK6M0/DNtYT
+zix8ifTpT7flNDEitMM09LagiyLuOdCJcLARWdIsy/H8FhBv3Dj6QSb6uxfUwKPxaF0ci/pUreEG
+/GExGr9DQRa4AY1/ldNHzdKqxYedmYB+iHJH2AXv361erc7m0X/OPd47/NVS3HYPqaBQCSaHDeoK
+2Mq7gQYLrf44</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE>

@@ -1,0 +1,4 @@
+Pueden haber problemas de ejecucion. weasyprint puede causar problemas
+Empece instalando MSYS2 como decia la documentacion de WeasyPrint v64.0
+pero como el codigo requiere la version v52.2 instalar GTK-for-Windows-Runtime-Enviroment-Installer, GTK3 especificamente resolvio mi problema
+Se recomienda Python 3.9

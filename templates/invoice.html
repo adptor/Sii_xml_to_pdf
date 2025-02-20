@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="invoice.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="section section-1">
+        <div class="header-left">
+            <section class="company-logo"></section>
+        </div>
+        <div class="header-center">
+            <dl class="supplier-info">
+                <dt class="supplier-name">{{supplier_name}}</dt>
+                <dt>{{supplier_activity}}</dt>
+                <dt>{{supplier_address_detail}}</dt>
+                <dt>{{supplier_address_comuna}} - {{supplier_address_city}}</dt>
+            </dl>
+        </div>
+        <div class="header-right">
+            <dl class="document-info">
+                <dt class="spaces">R.U.T.: {{rut}}</dt>
+                <dt class="spacer">{{tipo_documento}}</dt>
+                <dt class="spaces">Nº: {{bill_no}}</dt>
+            </dl><br>
+            <!--<span>S.I.I. - DIRECCION REGIONAL <br> SANTIAGO ORIENTE</span>-->
+        </div>
+    </div>
+
+    <!-- Receiver Data Section -->
+    <div class="section section-2">
+        <div id="receiver_data">
+        <div id="receiver_data_column1_titles" style="width: 10%; font-weight: bold;">
+            <dt style="padding: 2px; padding-top: 5px;">Cliente:</dt>
+            <dt style="padding: 2px;">Giro:</dt>
+            <dt style="padding: 2px;">R.U.T.:</dt>
+            <dt style="padding: 2px;">Telefono:</dt>
+            <dt style="padding: 2px; padding-bottom: 5px;">Dirección:</dt>
+        </div>
+        <div id="receiver_data_column1_data" style="width: 50%">
+            <dt style="padding: 2px; padding-top: 5px;">{{receptor_razon_social}}</dt>
+            <dt style="padding: 2px;">{{receptor_giro}}</dt>
+            <dt style="padding: 2px;">{{receptor_rut}}</dt>
+            <dt style="padding: 2px;">{{receptor_contacto}}</dt>
+            <dt style="padding: 2px; padding-bottom: 5px;">{{receptor_direccion}}</dt>
+        </div>
+        <div id="receiver_data_column2_titles" style="width: 13%; font-weight: bold;">
+            <dt style="padding: 2px; padding-top: 5px;">Ciudad:</dt>
+            <dt style="padding: 2px;">Comuna:</dt>
+            <dt style="padding: 2px;">Forma de:</dt>
+            <dt style="padding: 2px;">Fecha Emision:</dt>
+            <dt style="padding: 2px; padding-bottom: 5px;">Fecha Venc:</dt>
+
+        </div>
+        <div id="receiver_data_column2_data" style="width: 27%">
+            <dt style="padding: 2px; padding-top: 5px;">{{receptor_ciudad}}</dt>
+            <dt style="padding: 2px;">{{receptor_comuna}}</dt>
+            <dt style="padding: 2px;">{{forma_pago_palabras}}</dt>
+            <dt style="padding: 2px;">{{fecha_emision}}</dt>
+            <dt style="padding: 2px; padding-bottom: 5px;">{{fecha_vencimiento}}</dt>
+        </div>
+    </div>
+    </div>
+
+    <!-- Item Table Section -->
+    <div class="section section-3">
+        <div id="item_table">
+            <table>
+                <tbody>
+                    {{purchase_invoice_items}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section section-4">
+        <div class="section-4-left">
+            <table id="referencias_table">
+            <thead>
+                <tr>
+                    <th>Tipo de Documento</th>
+                    <th>Folio</th>
+                    <th>Fecha</th>
+                    <th>Razón</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{referencias_table}}
+            </tbody>
+            </table>
+        </div>
+        <div class="section-4-right">
+            <div id="impuestos_table">{{impuestos_table}}</div>
+            <div id="total" style="border: 1px solid black;">
+                <div style="height: 20%; padding-top: 3px; display: flex;">
+                    <span style="width: 50%; padding-left: 5px; font-weight: bold;">Neto</span>
+                    <span style="width: 50%; padding-right: 5px; text-align: right; border-bottom: 1px solid black;">{{monto_neto}}</span>
+                </div>
+                <div style="height: 20%; padding-top: 3px; display: flex;">
+                    <span style="width: 50%; padding-left: 5px; font-weight: bold;">Exento</span>
+                    <span style="width: 50%; padding-right: 5px; text-align: right; border-bottom: 1px solid black;">{{monto_exento}}</span>
+                </div>
+                <div style="height: 20%; padding-top: 3px; display: flex;">
+                    <span style="width: 50%; padding-left: 5px; font-weight: bold;">I.V.A. (19%)</span>
+                    <span style="width: 50%; padding-right: 5px; text-align: right; border-bottom: 1px solid black;">{{monto_iva}}</span>
+                </div>
+                <div style="height: 20%; padding-top: 3px; font-weight: bold; display: flex;">
+                    <span style="width: 50%; padding-left: 5px;">Monto Total</span>
+                    <span style="width: 50%; text-align: right; padding-right: 5px;">{{monto_total}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-5">
+        <div style="height: 90%;">
+            <section id="imagen-svg" style="width: 50%"></section>
+        </div>
+    </div>
+
+    <div class="section section-6">
+        <div id="SVGText">
+            <a>Timbre electrónico S.I.I.</a><br>
+            <a>Verifique documento en: http://www.sii.cl</a>
+        </div>
+    </div>
+</body>
+</html>
